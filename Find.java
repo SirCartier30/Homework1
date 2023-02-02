@@ -7,7 +7,10 @@
  */
 public class Find {
     public static void main(String [] args){
+
     int x = 194 - (5 + 19 + 47 );
-    System.out.println( "The value is " + x );
+    //This is the formula to find the value of x.
+
+    System.out.println( "The x value is " + x );
     }
 }

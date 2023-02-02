@@ -1,5 +1,5 @@
 /**
- * @class: Chocolate
+ * @class: Stamps
  * @author: Daniel Omotere
  * @course: ITEC 2140-04, Spring 2023
  * @written: January 28, 2023
@@ -8,13 +8,15 @@
  */
 public class Stamps {
     public static void main(String [] args){
-
         int susanStamps = 8;
-        //number of stamps that Susan has
+        //The number of stamps that Susan has.
 
         int jeanStamps = 40;
-        // The number of stamps that Jean have
+        // The number of stamps that Jean have.
+
         int difference = jeanStamps - susanStamps;
+        //This is the formula of the difference between jean stamps and susan stamps.
+
         System.out.println("Jan has " + difference + " more stamps than Susan.");
 
     }
